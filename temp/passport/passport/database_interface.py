@@ -57,7 +57,8 @@ class Database():
         Raises:
             ValueError: if updating tags of service that doesnt exist
         """
-        if service in  self.services:
+        if service in self.services:
+            tags = set(tags.split(','))
             self.services[service][0] = tags
             self._update_global_tags()
         else:
