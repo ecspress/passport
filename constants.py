@@ -33,9 +33,4 @@ TAGS = 'tags'
 USERS = 'users'
 
 #for users
-PASSWORD = 'password'
-EMAIL = 'email'
-TWO_STEP_VERIFICATION = 'two_step_verification'
-SECRET_QUESTIONS = 'secret_questions'
-USER_LINK = 'user_link'
-RECOVERY_KEYS = 'recovery_pkeys'
+
