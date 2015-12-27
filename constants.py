@@ -34,3 +34,28 @@ USERS = 'users'
 
 #for users
 
+
+
+{
+	'services': {
+		'hotmail': {
+			'_tags': {
+				'cloud storage', 
+				'email'
+			}, 
+			'_name': 'hotmail', 
+			'_users': {
+				'fesal': 'data1',
+				 'fes': 'data'
+			}
+		}
+	}, 
+	'users': {
+		'fesal',
+		 'fes'
+	}, 
+	'tags': {
+		'cloud storage', 
+		'email'
+	}
+}
